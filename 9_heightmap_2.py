@@ -11,7 +11,6 @@ def get_risk_level(file):
 
     sets = []
 
-    #map sets with starting index
     for line in map_lines:
         list_line = list(line)
         prev_char = ''
@@ -32,8 +31,6 @@ def get_risk_level(file):
                 count += 1
                 prev_char = character
 
-    #map basins based on starting index
-    #import code; code.interact(local=dict(globals(), **locals()))
     basins = []
 
     past_sets = {}
