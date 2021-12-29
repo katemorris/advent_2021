@@ -1,4 +1,4 @@
-# advent_2021
+# Advent of Code 2021 in Python
 Advent 2021 in Python by Kate Tester
 Libraries Used:
 - time (measuring speed of solution)
